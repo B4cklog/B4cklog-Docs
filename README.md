@@ -5,42 +5,42 @@ This documentation is structured for solo development and hobby projects.
 
 ## Quick Navigation
 
-- [[overview/project|Project Overview]]
-- [[overview/architecture|Architecture]]
-- [[overview/mindmap|Project Mindmap]]
-- [[overview/tech-stack|Tech Stack]]
+- [Project Overview](overview/project.md)
+- [Architecture](overview/architecture.md)
+- [Project Mindmap](overview/mindmap.md)
+- [Tech Stack](overview/tech-stack.md)
 
 ## Modules
 
-### [[android/overview|Android Client]]
-- [[android/structure|Structure]]
-- [[android/key-classes|Key Classes]]
-- [[android/api|API Integration]]
+### [Android Client](android/overview.md)
+- [Structure](android/structure.md)
+- [Key Classes](android/key-classes.md)
+- [API Integration](android/api.md)
 
-### [[backend/overview|Backend Server]]
-- [[backend/structure|Structure]]
-- [[backend/key-classes|Key Classes]]
-- [[backend/api|API Endpoints]]
-- [[backend/database|Database]]
+### [Backend Server](backend/overview.md)
+- [Structure](backend/structure.md)
+- [Key Classes](backend/key-classes.md)
+- [API Endpoints](backend/api.md)
+- [Database](backend/database.md)
 
-### [[web/overview|Web Frontend]]
-- [[web/structure|Structure]]
-- [[web/key-components|Key Components]]
-- [[web/api|API Integration]]
+### [Web Frontend](web/overview.md)
+- [Structure](web/structure.md)
+- [Key Components](web/key-components.md)
+- [API Integration](web/api.md)
 
 ## DevOps
 
-- [[devops/docker-compose|Docker Compose]]
-- [[devops/deployment|Deployment]]
-- [[devops/environments|Environments]]
+- [Docker Compose](devops/docker-compose.md)
+- [Deployment](devops/deployment.md)
+- [Environments](devops/environments.md)
 
 ## Templates
 
-- [[templates/feature|Feature Template]]
-- [[templates/meeting-notes|Meeting Notes Template]]
+- [Feature Template](templates/feature.md)
+- [Meeting Notes Template](templates/meeting-notes.md)
 
 ## Related Links
 
-- [[overview/architecture#Architecture|System Architecture]]
-- [[backend/api#API Endpoints|All API Endpoints]]
-- [[devops/docker-compose#Services|Docker Services]]
+- [System Architecture](overview/architecture.md#Architecture)
+- [All API Endpoints](backend/api.md#API-Endpoints)
+- [Docker Services](devops/docker-compose.md#Services)

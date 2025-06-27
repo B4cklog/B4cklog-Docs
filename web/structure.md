@@ -1,12 +1,12 @@
 # Web Frontend Structure
 
-- **[[web/key-components#Components|components/]]**: Reusable UI components ([[web/key-components#GameList|GameList]], [[web/key-components#SearchBar|SearchBar]], [[web/key-components#Navbar|Navbar]])
-- **[[web/key-components#Pages|pages/]]**: Main pages ([[web/key-components#HomePage|Home]], [[web/key-components#LoginPage|Login]], [[web/key-components#RegisterPage|Register]], [[web/key-components#ProfilePage|Profile]], [[web/key-components#GameDetailPage|Game Detail]], [[web/key-components#SearchResultsPage|Search Results]], [[web/key-components#WelcomePage|Welcome]])
-- **[[web/api|api/]]**: API service layer for [[backend/overview|Backend communication]]
+- **[components/](web/key-components.md#Components)**: Reusable UI components ([GameList](web/key-components.md#GameList), [SearchBar](web/key-components.md#SearchBar), [Navbar](web/key-components.md#Navbar))
+- **[pages/](web/key-components.md#Pages)**: Main pages ([Home](web/key-components.md#HomePage), [Login](web/key-components.md#LoginPage), [Register](web/key-components.md#RegisterPage), [Profile](web/key-components.md#ProfilePage), [Game Detail](web/key-components.md#GameDetailPage), [Search Results](web/key-components.md#SearchResultsPage), [Welcome](web/key-components.md#WelcomePage))
+- **[api/](web/api.md)**: API service layer for [Backend communication](backend/overview.md)
 - **styles/**: CSS and theme files
 
 ## Component Hierarchy
 
 1. **Pages** contain multiple **Components**
-2. **Components** use **API layer** for [[backend/api|Backend communication]]
-3. **API layer** handles [[web/api|REST requests]] to [[backend/overview|Backend Server]] 
+2. **Components** use **API layer** for [Backend communication](backend/api.md)
+3. **API layer** handles [REST requests](web/api.md) to [Backend Server](backend/overview.md) 

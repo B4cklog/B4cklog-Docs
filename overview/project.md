@@ -2,9 +2,9 @@
 
 B4cklog is a personal game backlog management system.
 It consists of three main modules:
-- [[android/overview|Android Client]] (Kotlin)
-- [[backend/overview|Backend Server]] (Spring Boot, Kotlin)
-- [[web/overview|Web Frontend]] (React, TypeScript)
+- [Android Client](android/overview.md) (Kotlin)
+- [Backend Server](backend/overview.md) (Spring Boot, Kotlin)
+- [Web Frontend](web/overview.md) (React, TypeScript)
 
 ## Features
 
@@ -15,14 +15,14 @@ It consists of three main modules:
 
 ## Architecture
 
-See [[overview/architecture|Architecture Overview]] for detailed system design.
+See [Architecture Overview](overview/architecture.md) for detailed system design.
 
 ## Tech Stack
 
-Check [[overview/tech-stack|Tech Stack]] for complete technology list.
+Check [Tech Stack](overview/tech-stack.md) for complete technology list.
 
 ## Development
 
-- [[devops/docker-compose|Docker Setup]] for local development
-- [[backend/api|API Documentation]] for backend endpoints
-- [[android/api|Android API]] and [[web/api|Web API]] for client integration 
+- [Docker Setup](devops/docker-compose.md) for local development
+- [API Documentation](backend/api.md) for backend endpoints
+- [Android API](android/api.md) and [Web API](web/api.md) for client integration 

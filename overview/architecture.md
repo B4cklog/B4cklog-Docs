@@ -2,26 +2,26 @@
 
 B4cklog is a modular monorepo with three main components:
 
-- **[[android/overview|Android Client]]**: Kotlin, MVVM, Retrofit
-- **[[backend/overview|Backend Server]]**: Spring Boot (Kotlin), REST API, MySQL
-- **[[web/overview|Web Frontend]]**: React, TypeScript, Tailwind CSS
+- **[Android Client](android/overview.md)**: Kotlin, MVVM, Retrofit
+- **[Backend Server](backend/overview.md)**: Spring Boot (Kotlin), REST API, MySQL
+- **[Web Frontend](web/overview.md)**: React, TypeScript, Tailwind CSS
 
-All modules communicate via REST API. [[devops/docker-compose|Docker Compose]] is used for local development and deployment.
+All modules communicate via REST API. [Docker Compose](devops/docker-compose.md) is used for local development and deployment.
 
 ## Component Interactions
 
 ### Authentication Flow
-1. [[android/overview|Android]] and [[web/overview|Web]] clients authenticate via [[backend/api#Auth|Auth API]]
-2. [[backend/overview|Backend]] validates credentials and returns JWT tokens
+1. [Android](android/overview.md) and [Web](web/overview.md) clients authenticate via [Auth API](backend/api.md#Auth)
+2. [Backend](backend/overview.md) validates credentials and returns JWT tokens
 3. Clients use tokens for subsequent API calls
 
 ### Data Flow
-1. [[backend/overview|Backend]] serves game data via [[backend/api#Games|Games API]]
-2. [[android/overview|Android]] and [[web/overview|Web]] consume data via [[android/api|Android API]] and [[web/api|Web API]]
-3. [[backend/database|Database]] stores all persistent data
+1. [Backend](backend/overview.md) serves game data via [Games API](backend/api.md#Games)
+2. [Android](android/overview.md) and [Web](web/overview.md) consume data via [Android API](android/api.md) and [Web API](web/api.md)
+3. [Database](backend/database.md) stores all persistent data
 
 ## Infrastructure
 
-- [[devops/docker-compose|Docker Compose]] orchestrates all services
-- [[devops/environments|Environment]] configuration via environment variables
-- [[devops/deployment|Deployment]] process for production 
+- [Docker Compose](devops/docker-compose.md) orchestrates all services
+- [Environment](devops/environments.md) configuration via environment variables
+- [Deployment](devops/deployment.md) process for production 

@@ -1,21 +1,21 @@
 # API (Android)
 
-The [[android/overview|Android client]] communicates with the [[backend/overview|Backend Server]] via REST API endpoints:
+The [Android client](android/overview.md) communicates with the [Backend Server](backend/overview.md) via REST API endpoints:
 
 ## Authentication
-- `POST /auth/login` - handled by [[android/key-classes#LoginActivity|LoginActivity]]
-- `POST /auth/register` - handled by [[android/key-classes#SignUpActivity|SignUpActivity]]
+- `POST /auth/login` - handled by [LoginActivity](android/key-classes.md#LoginActivity)
+- `POST /auth/register` - handled by [SignUpActivity](android/key-classes.md#SignUpActivity)
 
 ## Game Management
-- `GET /games` - used by [[android/key-classes#HomeFragment|HomeFragment]] and [[android/key-classes#GameAdapter|GameAdapter]]
-- `GET /games/{id}` - used by [[android/key-classes#GameDetailFragment|GameDetailFragment]]
+- `GET /games` - used by [HomeFragment](android/key-classes.md#HomeFragment) and [GameAdapter](android/key-classes.md#GameAdapter)
+- `GET /games/{id}` - used by [GameDetailFragment](android/key-classes.md#GameDetailFragment)
 - `POST /games` - game creation
 - `PUT /games/{id}` - game updates
 - `DELETE /games/{id}` - game deletion
 
 ## Reviews
 - `GET /reviews` - review listing
-- `POST /reviews` - review submission via [[android/key-classes#GameDetailFragment|GameDetailFragment]]
+- `POST /reviews` - review submission via [GameDetailFragment](android/key-classes.md#GameDetailFragment)
 
 ## Platforms
 - `GET /platforms` - platform listing
@@ -23,6 +23,6 @@ The [[android/overview|Android client]] communicates with the [[backend/overview
 
 ## Implementation
 
-All API calls are handled by [[android/key-classes#ApiClient|ApiClient]] with authentication managed by [[android/key-classes#SessionManager|SessionManager]].
+All API calls are handled by [ApiClient](android/key-classes.md#ApiClient) with authentication managed by [SessionManager](android/key-classes.md#SessionManager).
 
-Authentication is handled via JWT tokens from [[backend/api#Auth|Backend Auth API]]. 
+Authentication is handled via JWT tokens from [Backend Auth API](backend/api.md#Auth). 

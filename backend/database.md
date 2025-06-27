@@ -6,14 +6,14 @@
 
 ## Entity Relationships
 
-- **User**: Authentication and profile data for [[android/overview|Android]] and [[web/overview|Web]] clients
-- **Game**: Game information shared across [[android/key-classes#GameAdapter|GameAdapter]] and [[web/key-components#GameList|GameList]]
+- **User**: Authentication and profile data for [Android](android/overview.md) and [Web](web/overview.md) clients
+- **Game**: Game information shared across [GameAdapter](android/key-classes.md#GameAdapter) and [GameList](web/key-components.md#GameList)
 - **Platform**: Gaming platforms for filtering
-- **Review**: User reviews and ratings from [[android/key-classes#GameDetailFragment|GameDetailFragment]] and [[web/key-components#GameDetailPage|GameDetailPage]]
-- **RefreshToken**: Token refresh mechanism for [[android/key-classes#SessionManager|SessionManager]]
+- **Review**: User reviews and ratings from [GameDetailFragment](android/key-classes.md#GameDetailFragment) and [GameDetailPage](web/key-components.md#GameDetailPage)
+- **RefreshToken**: Token refresh mechanism for [SessionManager](android/key-classes.md#SessionManager)
 
 ## Data Access
 
-- **Repositories**: Data access layer for [[backend/key-classes#Services|Services]]
+- **Repositories**: Data access layer for [Services](backend/key-classes.md#Services)
 - **DAOs**: Direct database operations
-- **JPA Entities**: Mapped to [[backend/key-classes#Models|Models]] used by [[backend/api|API endpoints]] 
+- **JPA Entities**: Mapped to [Models](backend/key-classes.md#Models) used by [API endpoints](backend/api.md) 
