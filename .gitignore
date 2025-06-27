@@ -1,0 +1,28 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+.obsidian/plugins/
+.obsidian/themes/
+
+# Obsidian cache
+.obsidian/cache/
+
+# Obsidian sync (if using)
+.obsidian/sync-conflict/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp 
